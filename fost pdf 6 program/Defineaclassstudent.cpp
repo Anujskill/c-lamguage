@@ -2,7 +2,7 @@
 
 using namespace std;
 
-class Defineaclassstudent
+class student
 {
 private:
     int admno;
@@ -32,9 +32,20 @@ public:
         cout<<"total";
         cout<< total;
     };
+
+    void Showdata(){
+        cout<<"\n\nthis is admno"<<admno<<endl;
+        cout<<"this is sname"<<sname<<endl;
+        cout<<"this is mark eng"<<eng<<endl;
+        cout<<"this is mark math"<<math<<endl;
+        cout<<"this is mark science"<<science<<endl;
+        cout<<"this is total"<<total<<endl;
+    }
 };
 
+
 int main(){
-    Defineaclassstudent student;
+    student student;
     student.Takedata();
+    student.Showdata();
 }
