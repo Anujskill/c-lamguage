@@ -1,5 +1,6 @@
 #include<iostream>
 using  namespace std;
+
 void convert(int ruppes,double dollar)
 {
     double total=ruppes*dollar;
