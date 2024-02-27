@@ -40,8 +40,8 @@ class Studentad2: public Studentad{
     }
 };
 
-class Studentad3: public Studentad2{
-    public:
+class derived : public Studentad2{
+     public:
     int total;
     float per;
     void Studentmarktotal(){
@@ -55,9 +55,10 @@ class Studentad3: public Studentad2{
 };
 
 int main(){
-    Studentad3 add[3];
-    for (int i = 1; i <= 3; i++)
-    {
+    
+    derived add[3];
+        for (int i = 1; i <= 3; i++)
+        {
         add[i].Studentfirusdeta();
         add[i].Studentfirusdeta2();
         add[i].Studentfirusdetainput();
@@ -65,10 +66,6 @@ int main(){
         add[i].Studentmarktotal();
         add[i].Studentmarktotalinput();
     }
-    
-    
-
-    
     
 }
 
