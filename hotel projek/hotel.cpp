@@ -557,7 +557,7 @@ class exitanuj : public DESSERTS
              << "\t" << 145 * qty[1] << endl;
     if (qty[2] != 0)
         cout << "\t\t3.Minestrone Soup"
-             << "\t" << qty[2] << "\t"
+             << "\t\t" << qty[2] << "\t"
              << "145"
              << "\t" << 145 * qty[2] << endl;
     if (qty[3] != 0)
@@ -582,22 +582,22 @@ class exitanuj : public DESSERTS
              << "\t" << 155 * qty[6] << endl;
     if (qty[7] != 0)
         cout << "\t\t2.Cucumber Salad"
-             << "\t" << qty[7] << "\t"
+             << "\t\t" << qty[7] << "\t"
              << "100"
              << "\t" << 100 * qty[7] << endl;
     if (qty[8] != 0)
         cout << "\t\t3.Jain Salad"
-             << "\t" << qty[8] << "\t"
+             << "\t\t" << qty[8] << "\t"
              << "110"
              << "\t" << 110 * qty[8] << endl;
     if (qty[9] != 0)
         cout << "\t\t4.Veg. Raita"
-             << "\t" << qty[9] << "\t"
+             << "\t\t" << qty[9] << "\t"
              << "120"
              << "\t" << 120 * qty[9] << endl;
     if (qty[10] != 0)
         cout << "\t\t5.Boondi Raita"
-             << "\t" << qty[10] << "\t"
+             << "\t\t" << qty[10] << "\t"
              << "120"
              << "\t" << 120 * qty[10] << endl;
     if (qty[11] != 0)
@@ -632,7 +632,7 @@ class exitanuj : public DESSERTS
              << "\t" << 250 * qty[16] << endl;
     if (qty[17] != 0)
         cout << "\t\t5.Raja Kebab"
-             << "\t" << qty[17] << "\t"
+             << "\t\t" << qty[17] << "\t"
              << "250"
              << "\t" << 250 * qty[17] << endl;
     if (qty[18] != 0)
@@ -647,37 +647,37 @@ class exitanuj : public DESSERTS
              << "\t" << 370 * qty[19] << endl;
     if (qty[20] != 0)
         cout << "\t\t1.Apple"
-             << "\t" << qty[20] << "\t"
+             << "\t\t\t" << qty[20] << "\t"
              << "100"
              << "\t" << 100 * qty[20] << endl;
     if (qty[21] != 0)
         cout << "\t\t2.Pineapple"
-             << "\t" << qty[21] << "\t"
+             << "\t\t\t" << qty[21] << "\t"
              << "110"
              << "\t" << 110 * qty[21] << endl;
     if (qty[22] != 0)
         cout << "\t\t3.Sweet Lime"
-             << "\t" << qty[22] << "\t"
+             << "\t\t\t" << qty[22] << "\t"
              << "110"
              << "\t" << 110 * qty[22] << endl;
     if (qty[23] != 0)
         cout << "\t\t4.Fresh Lime"
-             << "\t" << qty[23] << "\t"
+             << "\t\t\t" << qty[23] << "\t"
              << "130"
              << "\t" << 130 * qty[23] << endl;
     if (qty[24] != 0)
         cout << "\t\t1.Paneer Angara"
-             << "\t" << qty[24] << "\t"
+             << "\t\t" << qty[24] << "\t"
              << "250"
              << "\t" << 250 * qty[24] << endl;
     if (qty[25] != 0)
         cout << "\t\t2.Paneer Pasanda"
-             << "\t" << qty[25] << "\t"
+             << "\t\t" << qty[25] << "\t"
              << "240"
              << "\t" << 240 * qty[25] << endl;
     if (qty[26] != 0)
         cout << "\t\t3.Paneer Lababdar"
-             << "\t" << qty[26] << "\t"
+             << "\t\t" << qty[26] << "\t"
              << "250"
              << "\t" << 250 * qty[26] << endl;
     if (qty[27] != 0)
@@ -687,17 +687,17 @@ class exitanuj : public DESSERTS
              << "\t" << 250 * qty[27] << endl;
     if (qty[28] != 0)
         cout << "\t\t5.Paneer Toofani"
-             << "\t" << qty[28] << "\t"
+             << "\t\t" << qty[28] << "\t"
              << "250"
              << "\t" << 250 * qty[28] << endl;
     if (qty[29] != 0)
         cout << "\t\t6.Paneer Handi"
-             << "\t" << qty[29] << "\t"
+             << "\t\t" << qty[29] << "\t"
              << "270"
              << "\t" << 270 * qty[29] << endl;
     if (qty[30] != 0)
         cout << "\t\t7.Paneer Kadai"
-             << "\t" << qty[30] << "\t"
+             << "\t\t" << qty[30] << "\t"
              << "270"
              << "\t" << 270 * qty[30] << endl;
     if (qty[31] != 0)
@@ -712,32 +712,32 @@ class exitanuj : public DESSERTS
              << "\t" << 270 * qty[32] << endl;
     if (qty[33] != 0)
         cout << "\t\t10.Paneer Palak"
-             << "\t" << qty[33] << "\t"
+             << "\t\t" << qty[33] << "\t"
              << "270"
              << "\t" << 270 * qty[33] << endl;
     if (qty[34] != 0)
         cout << "\t\t1.Cheese Nan"
-             << "\t" << qty[34] << "\t"
+             << "\t\t" << qty[34] << "\t"
              << "95"
              << "\t" << 95 * qty[34] << endl;
     if (qty[35] != 0)
         cout << "\t\t2.Hariyali Nan"
-             << "\t" << qty[35] << "\t"
+             << "\t\t" << qty[35] << "\t"
              << "85"
              << "\t" << 85 * qty[35] << endl;
     if (qty[36] != 0)
         cout << "\t\t3.Kashmiri Nan"
-             << "\t" << qty[36] << "\t"
+             << "\t\t" << qty[36] << "\t"
              << "98"
              << "\t" << 95 * qty[36] << endl;
     if (qty[37] != 0)
         cout << "\t\t4.Plain Nan"
-             << "\t" << qty[37] << "\t"
+             << "\t\t" << qty[37] << "\t"
              << "55"
              << "\t" << 55 * qty[37] << endl;
     if (qty[38] != 0)
         cout << "\t\t5.Butter Nan"
-             << "\t" << qty[38] << "\t"
+             << "\t\t" << qty[38] << "\t"
              << "60"
              << "\t" << 60 * qty[38] << endl;
     if (qty[39] != 0)
@@ -747,12 +747,12 @@ class exitanuj : public DESSERTS
              << "\t" << 75 * qty[39] << endl;
     if (qty[40] != 0)
         cout << "\t\t7.Onion Kulcha"
-             << "\t" << qty[40] << "\t"
+             << "\t\t" << qty[40] << "\t"
              << "65"
              << "\t" << 65 * qty[40] << endl;
     if (qty[41] != 0)
         cout << "\t\t8.Masala Kulcha"
-             << "\t" << qty[41] << "\t"
+             << "\t\t" << qty[41] << "\t"
              << "55"
              << "\t" << 55 * qty[41] << endl;
     if (qty[42] != 0)
@@ -785,7 +785,6 @@ class exitanuj : public DESSERTS
              << "\t" << qty[47] << "\t"
              << "50"
              << "\t" << 50 * qty[47] << endl;
-    
 }
     
 };
